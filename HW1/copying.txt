@@ -1,0 +1,12 @@
+With each increase in file size the execution time of the program was increased. 
+
+After completing the assignment with the read/write system calls, use the C Library 
+functions fread() and fwrite() as replacements. Include the performance using these 
+functions in your graph, and discuss the differences (if any) you observe. 
+Speculate on the reason for any differences. 
+
+- For read()-write(), the execution time of the program grew linearly with the execution time.
+- Regarding fread() in comapision with read(), fread was faster than read. The difference grew exponentially with file-size. The difference is because fread is buffered where as read is unbuffered. fread is like watching youtube, where you do not have to wait until entire video loads up where as read is like downloading the entire video file then watch it. fread would be idle for the larger files whereas read would work fine while processing multiple small files, however, it would not be idle for larger files.
+
+
+

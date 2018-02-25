@@ -1,0 +1,14 @@
+1. fork();
+- creates a new process
+2. exit();
+- Process executes last statement and asks the operating system to delete it
+3. getpid();
+- gets the process ID
+4. getppid();
+- gets the parent process ID
+5. wait();
+- wait system outputs data from child to parent
+6. kill();
+- sends a signal to a process or a group of processes
+7. exec();
+- used after a fork to replace the process memory space with a new program

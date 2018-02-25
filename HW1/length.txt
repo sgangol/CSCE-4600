@@ -1,0 +1,21 @@
+Consider	the	evolution	of	computers	in	general	and	the	increase	in	processor	speed	in	
+particular.	Suppose	we	were	to	design	a	system	with	a	processor	that	is	clocked	at	6	GHz.	
+Further	let	us	suppose	that	signals	in	our	system	can	propagate	at	86%	of	the	speed	of	light.	
+Determine	the	maximum	distance	between	the	CPU	and	Memory	(or	Cache)	if	we	want	to	
+access	data	within	one	processor	cycle. Provide	your	answer	and	a	description	of	how	you	
+arrived	at	this	answer	in	a	plain	text	file	named	length.txt
+==========================================================
+
+The processor 	=	6	GHz
+				=	6,000,000,000 cycles/seconds
+One cycle takes	=	1/6,000,000,000 seconds
+				=	1.6 x 10 ^(-10) seconds
+				
+Speed of light(c)=	299,792,458 		meters/seconds
+80% of c		 =	86% * 299,792,458 	meters/seconds
+				 =	257,821,513.88		meters/seconds
+				 
+Max distance	 =	257,821,513.88 m/s x 1.6 x 10 ^(-10) s
+				 =	0.0412514422208 m
+				 =	4.12 cm
+				 
